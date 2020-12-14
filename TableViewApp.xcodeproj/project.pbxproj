@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		972AE4712587BB7700630090 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972AE4702587BB7700630090 /* City.swift */; };
 		97B8D1EA2583E2B3003D4619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B8D1E92583E2B3003D4619 /* AppDelegate.swift */; };
 		97B8D1EC2583E2B3003D4619 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B8D1EB2583E2B3003D4619 /* SceneDelegate.swift */; };
 		97B8D1EE2583E2B3003D4619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B8D1ED2583E2B3003D4619 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		972AE4702587BB7700630090 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		97B8D1E62583E2B3003D4619 /* TableViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B8D1E92583E2B3003D4619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97B8D1EB2583E2B3003D4619 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				97B8D1F22583E2B7003D4619 /* Assets.xcassets */,
 				97B8D1F42583E2B7003D4619 /* LaunchScreen.storyboard */,
 				97B8D1F72583E2B7003D4619 /* Info.plist */,
+				972AE4702587BB7700630090 /* City.swift */,
 			);
 			path = TableViewApp;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				97B8D1EE2583E2B3003D4619 /* ViewController.swift in Sources */,
 				97B8D1EA2583E2B3003D4619 /* AppDelegate.swift in Sources */,
+				972AE4712587BB7700630090 /* City.swift in Sources */,
 				97B8D1EC2583E2B3003D4619 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,12 +291,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5833UA6FFA;
 				INFOPLIST_FILE = TableViewApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = none.TableViewApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.TableViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,12 +310,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5833UA6FFA;
 				INFOPLIST_FILE = TableViewApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = none.TableViewApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.TableViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
