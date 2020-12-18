@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class MainViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     var cities = [City(name: "Omsk", picture: "omsk"),
                   City(name: "Moscow", picture: "moscow"),
                   City(name: "St. Petersburg", picture: "piter"),
@@ -15,6 +15,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                   City(name: "Samara", picture: "samara"),
                   City(name: "Irkutsk", picture: "irkutsk")]
     var selectCity: City?
+    
     @IBOutlet weak var tableView: UITableView!
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -41,7 +42,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let controller = segue.destination as? NewViewController {
+        if let controller = segue.destination as? SecondViewController {
             controller.city = selectCity
         }
     }
