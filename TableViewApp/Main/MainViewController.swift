@@ -44,6 +44,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         selectCity = cities[indexPath.row]
         let secondViewController = SecondViewController()
         secondViewController.commonInit(cities[indexPath.item].picture, title: cities[indexPath.item].name)
+//        self.modalPresentationStyle = .fullScreen
+//        self.present(secondViewController, animated: true, completion: nil)
         self.navigationController?.pushViewController(secondViewController, animated: true)
         self.tableView.deselectRow(at: indexPath, animated: true)
         print(indexPath)
